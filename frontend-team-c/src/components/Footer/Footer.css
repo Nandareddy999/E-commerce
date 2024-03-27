@@ -1,0 +1,9 @@
+.footer{
+    background: #000;
+    position: static;
+    /* bottom: -100px;  */
+    /* transition: bottom 0.3s ease;  */
+    margin-bottom: -50px;
+
+    
+}

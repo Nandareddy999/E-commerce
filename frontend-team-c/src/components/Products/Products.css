@@ -1,0 +1,45 @@
+.container-fluid{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 204, 255);
+}
+ 
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.Laptops-info {
+    border: 1px solid #080606;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 20rem;
+}
+
+.image-css img {
+    max-width: 100%;
+    max-height: 10rem;
+    
+}
+.image-fluid {
+    height: 10rem;
+}
+.ptext {
+    font-size: 16px;
+}
+ 
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+ 
+.container-fluid{
+    background-image:linear-gradient(to right,#d393b3,rgb(255, 255, 255));
+}
+
+.categorytitle{
+    font-size: x-large;
+    font-weight: bolder;
+}

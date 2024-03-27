@@ -1,0 +1,35 @@
+.text-white i{
+    padding-right: 10px;
+}
+/* @media (min-width: 1025px) {
+    .h-custom {
+        height: 100vh !important;
+    }
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.cart-items {
+    height: 40rem; /* Adjust this value as needed */
+    overflow-y: auto;
+}
+
+#formbox{
+    background-color: #007BFF;
+    align-items:stretch;
+    width: 100;
+    text-align: left;
+}
+.container{
+    width: auto;
+}
+
+.text-body i{
+    padding-right: 10px;
+}
+
+.cart{
+    background-image:linear-gradient(to right,#d393b3,white);
+    ;
+}

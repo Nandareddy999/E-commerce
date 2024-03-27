@@ -1,0 +1,57 @@
+#acc{
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.accordion{
+    background-color: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);;
+      background-color: linear-gradient(to right, #ff4b2b, #ff416c);;
+      border: 1px ;
+      border-radius: 115px;
+  }
+  
+  .accordion-header{
+    background-color: pink;
+  }
+  
+  .accordion-header:active{
+    background-color: black;
+  }
+  
+  .accordion-body{
+    background-color:   #e7a0b0;
+    text-align: left;
+  }
+  
+  .accordion-item{
+    border: 1px solid rgb(160, 88, 88);
+    
+  }
+  
+  .accordion-button
+  {
+    background: transparent;
+  }
+  
+  
+  .accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #e27184 !important;
+  }
+  
+  .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #ee6ec3 !important;
+      color:#FFF !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: #FFF !important;
+      box-shadow: 0px !important;
+  }
+  
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: white !important;
+    outline: 0;
+  }
+  
+  

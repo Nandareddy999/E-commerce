@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  frontend: 
+    build: /frontend-team-c
+    ports:
+      - "3000:3000"  # expose the frontend on port 3000
+    depends_on:
+      - backend  # ensure backend service is started before the frontend
+
+  backend:
+    build: /backend-team-c  # path to your backend Dockerfile
+    ports:
+      - "5000:5000"  # expose the backend on port 5000
